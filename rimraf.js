@@ -3,7 +3,7 @@ const path = require("path")
 const fs = require("fs")
 let glob = undefined
 try {
-  glob = require("glob")
+  glob = require("./pre-bundled/node_modules/glob")
 } catch (_err) {
   // treat glob as optional.
 }
